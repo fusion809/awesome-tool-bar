@@ -1,4 +1,4 @@
-# Main Tool Bar package
+# Atom with cool package in a toolbar
 
 Simple tool bar using [tool-bar](https://atom.io/packages/tool-bar) package.
 
@@ -7,12 +7,16 @@ Simple tool bar using [tool-bar](https://atom.io/packages/tool-bar) package.
 # Buttons
 
 * New File
-* Open...
-* Save
-* Find in Buffer
-* Replace in Buffer
-* Toggle Command Palette
-* Open Settings View
+* Find and Replace
+* Save all
+* Open recent
+* Git control
+* Open on Github
+* Merge Conflicts
+* Git time machine
+* Terminal
+* beautify
+* preference
 
 When in **dev mode** it adds two more buttons:
 

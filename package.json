@@ -1,9 +1,9 @@
 {
-  "name": "tool-bar-main",
+  "name": "awesome-atomtoolbar",
   "main": "./lib/tool-bar-main",
-  "version": "0.0.9",
-  "description": "Main tool bar",
-  "repository": "https://github.com/suda/tool-bar-main",
+  "version": "0.1.1",
+  "description": "My personal tool bar",
+  "repository": "https://github.com/radjivC/awesome-atomtoolbar",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
