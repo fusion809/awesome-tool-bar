@@ -1,7 +1,7 @@
 {
   "name": "awesome-tool-bar",
   "main": "./lib/tool-bar-main",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "My personal tool bar",
   "repository": "https://github.com/radjivC/awesome-tool-bar",
   "license": "MIT",
