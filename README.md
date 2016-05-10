@@ -3,7 +3,7 @@
 Simple tool bar using [tool-bar](https://atom.io/packages/tool-bar) package but with more awesomeness like
 git time machine, git control, merge conflicts..etc
 
-![Main Tool Bar](http://f.cl.ly/items/3B3O471G3h3d0x0l0313/Screenshot-2014-10-22-11.37.54.png)
+![Main Tool Bar](https://i.imgur.com/hydLbCd.png)
 
 # Buttons
 
@@ -17,8 +17,21 @@ git time machine, git control, merge conflicts..etc
 * Git time machine
 * Terminal
 * Ask stack overflow
-* Beautify
+* Atom Beautify
 * preference
+
+# Dependencies
+
+* tool-bar
+* tool-bar-main
+* open-on-github
+* git-control
+* merge-conflicts
+* git-time-machine
+* term3
+* ask-stack
+* atom-beautify
+* recent-finder   
 
 When in **dev mode** it adds two more buttons:
 
