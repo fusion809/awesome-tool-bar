@@ -1,9 +1,9 @@
 {
-  "name": "awesome-atomtoolbar",
+  "name": "awesome-tool-bar",
   "main": "./lib/tool-bar-main",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "description": "My personal tool bar",
-  "repository": "https://github.com/radjivC/awesome-atomtoolbar",
+  "repository": "https://github.com/radjivC/awesome-tool-bar",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
@@ -16,7 +16,16 @@
     "atom-package-deps": "^3.0.7"
   },
   "package-deps": [
-    "tool-bar"
+    "tool-bar",
+    "tool-bar-main",
+    "open-on-github",
+    "git-control",
+    "merge-conflicts",
+    "git-time-machine",
+    "term3",
+    "ask-stack",
+    "atom-beautify",
+    "recent-finder"
   ],
   "packageDependencies": {
     "tool-bar": "0.1.1"
