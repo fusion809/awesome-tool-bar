@@ -91,7 +91,7 @@ module.exports =
     @toolBar.addButton
       tooltip: 'Auto indent'
       dependency: 'atom-beautify'
-      callback: 'atom-beautify:beautify-file'
+      callback: 'atom-beautify:beautify-editor'
       icon: 'indent'
       iconset: 'fa'
 
