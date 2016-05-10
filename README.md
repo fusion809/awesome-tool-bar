@@ -16,7 +16,8 @@ git time machine, git control, merge conflicts..etc
 * Merge Conflicts
 * Git time machine
 * Terminal
-* beautify
+* Ask stack overflow
+* Beautify
 * preference
 
 When in **dev mode** it adds two more buttons:
