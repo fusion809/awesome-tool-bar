@@ -23,7 +23,6 @@ git time machine, git control, merge conflicts..etc
 # Dependencies
 
 * tool-bar
-* tool-bar-main
 * open-on-github
 * git-control
 * merge-conflicts
@@ -31,7 +30,7 @@ git time machine, git control, merge conflicts..etc
 * term3
 * ask-stack
 * atom-beautify
-* recent-finder   
+* recent-finder
 
 When in **dev mode** it adds two more buttons:
 
