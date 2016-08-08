@@ -82,6 +82,12 @@ module.exports =
       iconset: 'fa'
 
     @toolBar.addButton
+      icon: "book"
+      iconset: "fa"
+      callback: "xdg-open http://en.cppreference.com/w/"
+      tooltip: "C/C++ Reference Wiki"
+
+    @toolBar.addButton
       icon: "question"
       dependency: 'ask-stack'
       callback: "ask-stack:ask-question"
