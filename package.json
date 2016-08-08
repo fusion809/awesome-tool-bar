@@ -1,9 +1,9 @@
 {
-  "name": "awesome-tool-bar",
+  "name": "tool-bar-fusion",
   "main": "./lib/tool-bar-main",
   "version": "0.4.3",
-  "description": "My personal tool bar",
-  "repository": "https://github.com/radjivC/awesome-tool-bar",
+  "description": "fusion809's personal toolbar",
+  "repository": "https://github.com/fusion809/awesome-tool-bar",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
@@ -21,7 +21,7 @@
     "git-control",
     "merge-conflicts",
     "git-time-machine",
-    "term3",
+    "terminal-fusion",
     "ask-stack",
     "atom-beautify",
     "recent-finder"
