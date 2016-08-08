@@ -3,7 +3,7 @@
 Simple tool bar using [tool-bar](https://atom.io/packages/tool-bar) package but with more awesomeness like
 git time machine, git control, merge conflicts..etc
 
-![Main Tool Bar](https://i.imgur.com/hydLbCd.png)
+![Main Tool Bar](http://imgur.com/D1jn4Vv)
 
 # Buttons
 
@@ -11,26 +11,30 @@ git time machine, git control, merge conflicts..etc
 * Find and Replace
 * Save all
 * Open recent
-* Git control
+* Git Plus
 * Open on Github
-* Merge Conflicts
 * Git time machine
 * Terminal
-* Ask stack overflow
-* Atom Beautify
-* preference
+* Ask StackOverflow
+* Arch Linux development ones
+* Build project
+* Script - Run, run to line, stop run, *etc.*
+* Preference
 
 # Dependencies
 
-* tool-bar
-* open-on-github
-* git-control
-* merge-conflicts
-* git-time-machine
-* term3
-* ask-stack
-* atom-beautify
-* recent-finder
+* `ask-stack`
+* `git-plus`
+* `git-time-machine`
+* `open-on-github`
+* `recent-finder`
+* `terminal-fusion`
+* `tool-bar`
+
+# Optional dependencies
+* `build`
+* `language-archlinux`
+* `script`
 
 When in **dev mode** it adds two more buttons:
 

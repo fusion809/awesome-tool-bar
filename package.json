@@ -14,7 +14,10 @@
     "toolbar",
     "archlinux",
     "linux",
-    "development"
+    "development",
+    "build",
+    "git",
+    "make"
   ],
   "dependencies": {
     "atom-package-deps": "^3.0.7"
