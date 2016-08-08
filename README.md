@@ -23,18 +23,18 @@ git time machine, git control, merge conflicts..etc
 
 # Dependencies
 
-* `ask-stack`
-* `git-plus`
-* `git-time-machine`
-* `open-on-github`
-* `recent-finder`
-* `terminal-fusion`
-* `tool-bar`
+* [`ask-stack`](https://atom.io/packages/ask-stack)
+* [`git-plus`](https://atom.io/packages/git-plus)
+* [`git-time-machine`](https://atom.io/packages/git-time-machine)
+* [`open-on-github`](https://atom.io/packages/open-on-github)
+* [`recent-finder`](https://atom.io/packages/recent-finder)
+* [`terminal-fusion`](https://atom.io/packages/terminal-fusion)
+* [`tool-bar`](https://atom.io/packages/tool-bar)
 
 # Optional dependencies
-* `build`
-* `language-archlinux`
-* `script`
+* [`build`](https://atom.io/packages/build)
+* [`language-archlinux`](https://atom.io/packages/language-archlinux)
+* [`script`](https://atom.io/packages/script)
 
 When in **dev mode** it adds two more buttons:
 
