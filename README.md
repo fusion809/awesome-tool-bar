@@ -3,7 +3,7 @@
 Simple tool bar using [tool-bar](https://atom.io/packages/tool-bar) package but with more awesomeness like
 git time machine, git control, merge conflicts..etc
 
-![Main Tool Bar](http://imgur.com/D1jn4Vv)
+![Main Tool Bar](http://imgur.com/D1jn4Vv.png)
 
 # Buttons
 
