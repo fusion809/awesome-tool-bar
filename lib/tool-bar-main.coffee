@@ -5,7 +5,7 @@ module.exports =
     require('atom-package-deps').install('git-control')
     require('atom-package-deps').install('merge-conflicts')
     require('atom-package-deps').install('git-time-machine')
-    require('atom-package-deps').install('term3')
+    require('atom-package-deps').install('terminal-fusion')
     require('atom-package-deps').install('ask-stack')
     require('atom-package-deps').install('atom-beautify')
     require('atom-package-deps').install('recent-finder')
@@ -77,8 +77,8 @@ module.exports =
 
     @toolBar.addButton
       tooltip: 'Terminal'
-      dependency: 'term3'
-      callback: 'term3:open'
+      dependency: 'terminal-fusion'
+      callback: 'terminal-fusion:toggle'
       icon: 'terminal'
       iconset: 'fa'
 
