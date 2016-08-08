@@ -1,3 +1,6 @@
+## [0.8.0](https://github.com/fusion809/toolbar-fusion/compare/v0.7.0...v0.8.0)
+* Adding documentation buttons.
+
 ## [0.7.0](https://github.com/fusion809/toolbar-fusion/compare/v0.6.2...v0.7.0)
 * Removed Arch Linux development buttons.
 * Replaced `build` with `gpp-compiler` and compilation provider.

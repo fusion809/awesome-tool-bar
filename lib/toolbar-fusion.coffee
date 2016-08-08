@@ -1,8 +1,10 @@
 module.exports =
   activate: (state) ->
-    {docs} = require "./reference"
+    {cdocs,pydocs2,pydocs3} = require "./reference"
     atom.commands.add 'atom-text-editor',
-      "toolbar-fusion:docs": -> docs()
+      "toolbar-fusion:cdocs": -> cdocs()
+      "toolbar-fusion:pydocs2": -> pydocs2()
+      "toolbar-fusion:pydocs3": -> pydocs3()
     require('atom-package-deps').install('tool-bar-main')
     require('atom-package-deps').install('open-on-github')
     require('atom-package-deps').install('git-plus')
@@ -87,8 +89,20 @@ module.exports =
     @toolBar.addButton
       icon: "book"
       iconset: "fa"
-      callback: "toolbar-fusion:docs"
+      callback: "toolbar-fusion:cdocs"
       tooltip: "C/C++ Reference Wiki"
+
+    @toolBar.addButton
+      icon: "python-plain"
+      iconset: "devicon"
+      callback: "toolbar-fusion:pydocs2"
+      tooltip: "Python 2 Reference Manual"
+
+    @toolBar.addButton
+      icon: "python-plain"
+      iconset: "devicon"
+      callback: "toolbar-fusion:pydocs3"
+      tooltip: "Python 3 Reference Manual"
 
     @toolBar.addButton
       icon: "question"
