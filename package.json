@@ -18,6 +18,7 @@
     "development",
     "build",
     "git",
+    "fusion809",
     "make"
   ],
   "dependencies": {
