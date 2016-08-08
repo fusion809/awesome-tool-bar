@@ -1,3 +1,8 @@
+## 0.6.1
+* Fixed rendering issue with README screenshot.
+* Added keyword to package.json.
+* Adjusted description in package.json.
+
 ## 0.6.0
 * Added Arch Linux package development buttons
 * Added Build / Script buttons
