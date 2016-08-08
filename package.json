@@ -4,7 +4,7 @@
   "contributor": "Brenton Horne <brentonhorne77@gmail.com>",
   "author": "radjiv fender <radjiv.carrere@gmail.com>",
   "version": "0.5.1",
-  "description": "fusion809's personal toolbar",
+  "description": "The ultimate tool-bar for Linux users and software developers.",
   "repository": "https://github.com/fusion809/awesome-tool-bar",
   "license": "MIT",
   "engines": {
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "toolbar",
-    "tool-bar"
+    "archlinux",
+    "linux",
+    "development"
   ],
   "dependencies": {
     "atom-package-deps": "^3.0.7"
@@ -20,12 +22,12 @@
   "package-deps": [
     "tool-bar",
     "open-on-github",
-    "git-control",
+    "git-plus",
     "merge-conflicts",
     "git-time-machine",
     "terminal-fusion",
     "ask-stack",
-    "atom-beautify",
+    "build-make",
     "recent-finder"
   ],
   "packageDependencies": {

@@ -2,12 +2,10 @@ module.exports =
   activate: (state) ->
     require('atom-package-deps').install('tool-bar-main')
     require('atom-package-deps').install('open-on-github')
-    require('atom-package-deps').install('git-control')
-    require('atom-package-deps').install('merge-conflicts')
+    require('atom-package-deps').install('git-plus')
     require('atom-package-deps').install('git-time-machine')
     require('atom-package-deps').install('terminal-fusion')
     require('atom-package-deps').install('ask-stack')
-    require('atom-package-deps').install('atom-beautify')
     require('atom-package-deps').install('recent-finder')
 
   deactivate: ->
@@ -47,24 +45,17 @@ module.exports =
     @toolBar.addSpacer()
 
     @toolBar.addButton
-      tooltip: 'Git Control'
-      dependency: 'git-control'
-      callback: 'git-control:toggle'
-      icon: 'git'
-      iconset: 'fa'
+      tooltip: 'Git Plus'
+      dependency: 'git-plus'
+      callback: 'git-plus:menu'
+      icon: 'git-plain'
+      iconset: 'devicon'
 
     @toolBar.addButton
-      tooltip: 'Open on Github'
+      tooltip: 'Open on GitHub'
       dependency: 'open-on-github'
       callback: 'open-on-github:file'
       icon: 'octoface'
-
-    @toolBar.addButton
-      tooltip: 'Merge Conflicts'
-      dependency: 'merge-conflicts'
-      callback: 'merge-conflicts:detect'
-      icon: 'code-fork'
-      iconset: 'fa'
 
     @toolBar.addButton
       tooltip: 'git-time-machine'
@@ -74,6 +65,69 @@ module.exports =
       iconset: 'ion'
 
     @toolBar.addSpacer()
+
+    @toolBar.addSpacer()
+
+    if atom.packages.loadedPackages['build']
+      @toolBar.addButton
+        'icon': 'hammer'
+        'callback': 'build:trigger'
+        'dependency': 'build'
+        'tooltip': 'Trigger build'
+        'iconset': 'ion'
+    else if atom.packages.loadedPackages['language-archlinux']
+      @toolBar.addButton
+        'icon': 'arrow-up'
+        'iconset': 'fa'
+        'dependency': 'language-archlinux'
+        'tooltip': 'Push AUR package changes'
+        'callback': 'language-archlinux:aurup'
+      @toolBar.addButton
+        'icon': 'hammer'
+        'iconset': 'ion'
+        'dependency': 'language-archlinux'
+        'tooltip': 'Build package'
+        'callback': 'language-archlinux:makepkg'
+      @toolBar.addButton
+        'icon': 'warning'
+        'iconset': 'fa'
+        'dependency': 'language-archlinux'
+        'tooltip': 'Check PKGBUILD for errors'
+        'callback': 'language-archlinux:namcap'
+      @toolBar.addButton
+        'icon': 'plus-circle'
+        'iconset': 'fa'
+        'dependency': 'language-archlinux'
+        'tooltip': 'Create new AUR package'
+        'callback': 'language-archlinux:newpkg'
+      @toolBar.addButton
+        'icon': 'wrench'
+        'iconset': 'fa'
+        'dependency': 'language-archlinux'
+        'tooltip': 'Update PKGBUILD checksums'
+        'callback': 'language-archlinux:updpkgsums'
+
+    if atom.packages.loadedPackages['script']
+      @toolBar.addButton
+        'icon': 'play'
+        'callback': 'script:run'
+        'tooltip': 'Run script'
+        'iconset': 'fa'
+      @toolBar.addButton
+        'icon': 'fast-forward'
+        'callback': 'script:run-by-line-number'
+        'tooltip': 'Run by Line Number'
+        'iconset': 'fa'
+      @toolBar.addButton
+        'icon': 'stop'
+        'callback': 'script:kill-process'
+        'tooltip': 'Stop script'
+        'iconset': 'fa'
+      @toolBar.addButton
+        'icon': 'gear'
+        'callback': 'script:run-options'
+        'tooltip': 'Configure script'
+        'iconset': 'fa'
 
     @toolBar.addButton
       tooltip: 'Terminal'
@@ -86,14 +140,7 @@ module.exports =
       icon: "question"
       dependency: 'ask-stack'
       callback: "ask-stack:ask-question"
-      tooltip: "ask stackoverflow"
-
-    @toolBar.addButton
-      tooltip: 'Auto indent'
-      dependency: 'atom-beautify'
-      callback: 'atom-beautify:beautify-editor'
-      icon: 'indent'
-      iconset: 'fa'
+      tooltip: "Ask StackOverflow"
 
     @toolBar.addSpacer()
 
