@@ -1,5 +1,8 @@
 module.exports =
   activate: (state) ->
+    {docs} = require "./reference"
+    atom.commands.add 'atom-text-editor',
+      "toolbar-fusion:docs": -> docs()
     require('atom-package-deps').install('tool-bar-main')
     require('atom-package-deps').install('open-on-github')
     require('atom-package-deps').install('git-plus')
@@ -84,7 +87,7 @@ module.exports =
     @toolBar.addButton
       icon: "book"
       iconset: "fa"
-      callback: "xdg-open http://en.cppreference.com/w/"
+      callback: "toolbar-fusion:docs"
       tooltip: "C/C++ Reference Wiki"
 
     @toolBar.addButton
