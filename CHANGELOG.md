@@ -1,3 +1,10 @@
+## 0.7.0
+* Removed Arch Linux development buttons.
+* 
+
+## 0.6.2
+Adjusted metadata in package.json.
+
 ## 0.6.1
 * Fixed rendering issue with README screenshot.
 * Added keyword to package.json.

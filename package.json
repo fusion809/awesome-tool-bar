@@ -4,21 +4,21 @@
   "contributor": "Brenton Horne <brentonhorne77@gmail.com>",
   "author": "radjiv fender <radjiv.carrere@gmail.com>",
   "version": "0.6.2",
-  "description": "The ultimate toolbar for Arch Linux package and software developers.",
+  "readmeFilename": "README.md",
+  "description": "The ultimate toolbar for software developers.",
   "repository": "https://github.com/fusion809/toolbar-fusion",
   "license": "MIT",
+  "licenseFilename": "LICENSE",
   "engines": {
     "atom": ">0.50.0"
   },
   "keywords": [
     "toolbar",
-    "archlinux",
-    "linux",
-    "packaging",
     "development",
     "build",
     "git",
     "fusion809",
+    "script",
     "make"
   ],
   "dependencies": {
@@ -35,6 +35,8 @@
     "git-time-machine",
     "terminal-fusion",
     "ask-stack",
+    "build",
+    "script",
     "recent-finder"
   ],
   "packageDependencies": {

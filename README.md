@@ -1,7 +1,6 @@
 # Atom with cool package in a toolbar
 
-Simple tool bar using [tool-bar](https://atom.io/packages/tool-bar) package but with more awesomeness like
-git time machine, git control, merge conflicts..etc
+Simple tool bar using [tool-bar](https://atom.io/packages/tool-bar) package but with several buttons to aid in software development.
 
 ![Main Tool Bar](http://imgur.com/D1jn4Vv.png)
 
@@ -16,7 +15,6 @@ git time machine, git control, merge conflicts..etc
 * Git time machine
 * Terminal
 * Ask StackOverflow
-* Arch Linux development ones
 * Build project
 * Script - Run, run to line, stop run, *etc.*
 * Preference
@@ -33,7 +31,6 @@ git time machine, git control, merge conflicts..etc
 
 # Optional dependencies
 * [`build`](https://atom.io/packages/build)
-* [`language-archlinux`](https://atom.io/packages/language-archlinux)
 * [`script`](https://atom.io/packages/script)
 
 When in **dev mode** it adds two more buttons:
