@@ -3,7 +3,7 @@
   "main": "./lib/tool-bar-main",
   "contributor": "Brenton Horne <brentonhorne77@gmail.com>",
   "author": "radjiv fender <radjiv.carrere@gmail.com>",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "fusion809's personal toolbar",
   "repository": "https://github.com/fusion809/awesome-tool-bar",
   "license": "MIT",
