@@ -1,6 +1,7 @@
 ## 0.7.0
 * Removed Arch Linux development buttons.
-* 
+* Replaced `build` with `gpp-compiler` and compilation provider.
+* Removed "Save all", "New file" and "Open folder" options from toolbar. 
 
 ## 0.6.2
 Adjusted metadata in package.json.

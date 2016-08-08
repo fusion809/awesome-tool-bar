@@ -7,7 +7,7 @@ module.exports =
     require('atom-package-deps').install('terminal-fusion')
     require('atom-package-deps').install('ask-stack')
     require('atom-package-deps').install('script')
-    require('atom-package-deps').install('build')
+    require('atom-package-deps').install('gpp-compiler')
     require('atom-package-deps').install('recent-finder')
 
   deactivate: ->
@@ -48,9 +48,9 @@ module.exports =
 
     @toolBar.addButton
       'icon': 'hammer'
-      'callback': 'build:trigger'
-      'dependency': 'build'
-      'tooltip': 'Trigger build'
+      'callback': 'gpp-compiler:debug'
+      'dependency': 'gpp-compiler'
+      'tooltip': 'Compile and debug C/C++ project'
       'iconset': 'ion'
 
     @toolBar.addButton
