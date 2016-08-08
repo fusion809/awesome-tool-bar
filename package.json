@@ -1,7 +1,7 @@
 {
   "name": "tool-bar-fusion",
   "main": "./lib/tool-bar-main",
-  "version": "0.4.3",
+  "version": "0.5.0",
   "description": "fusion809's personal toolbar",
   "repository": "https://github.com/fusion809/awesome-tool-bar",
   "license": "MIT",
