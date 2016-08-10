@@ -1,3 +1,7 @@
+## [0.8.1](https://github.com/fusion809/toolbar-fusion/compare/v0.8.0...v0.8.1)
+* Adding the required dependencies to "packageDependencies" field in package.json,
+eliminating the need for them in `lib/toolbar-fusion.coffee`.
+
 ## [0.8.0](https://github.com/fusion809/toolbar-fusion/compare/v0.7.0...v0.8.0)
 * Adding documentation buttons.
 

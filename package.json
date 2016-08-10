@@ -21,26 +21,20 @@
     "script",
     "make"
   ],
-  "dependencies": {
-    "atom-package-deps": "^3.0.7"
-  },
+  "dependencies": {},
   "devDependencies": {
     "coffee-script": "^1.8.0"
   },
-  "package-deps": [
-    "tool-bar",
-    "open-on-github",
-    "git-plus",
-    "merge-conflicts",
-    "git-time-machine",
-    "terminal-fusion",
-    "ask-stack",
-    "gpp-compiler",
-    "script",
-    "recent-finder"
-  ],
   "packageDependencies": {
-    "tool-bar": "0.1.1"
+    "tool-bar": "0.1.1",
+    "open-on-github": "^1.1.0",
+    "git-plus": "^5.16.2",
+    "gpp-compiler": "^3.0.4",
+    "git-time-machine": "^3.0",
+    "terminal-fusion": "^2.3.1",
+    "ask-stack": "^2.2.0",
+    "script": "3.8.3",
+    "recent-finder": "^0.5.0"
   },
   "consumedServices": {
     "tool-bar": {

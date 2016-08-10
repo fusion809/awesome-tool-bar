@@ -5,15 +5,6 @@ module.exports =
       "toolbar-fusion:cdocs": -> cdocs()
       "toolbar-fusion:pydocs2": -> pydocs2()
       "toolbar-fusion:pydocs3": -> pydocs3()
-    require('atom-package-deps').install('tool-bar-main')
-    require('atom-package-deps').install('open-on-github')
-    require('atom-package-deps').install('git-plus')
-    require('atom-package-deps').install('git-time-machine')
-    require('atom-package-deps').install('terminal-fusion')
-    require('atom-package-deps').install('ask-stack')
-    require('atom-package-deps').install('script')
-    require('atom-package-deps').install('gpp-compiler')
-    require('atom-package-deps').install('recent-finder')
 
   deactivate: ->
     @toolBar?.removeItems()
@@ -53,10 +44,10 @@ module.exports =
 
     @toolBar.addButton
       'icon': 'hammer'
+      'iconset': 'ion'
       'callback': 'gpp-compiler:debug'
       'dependency': 'gpp-compiler'
       'tooltip': 'Compile and debug C/C++ project'
-      'iconset': 'ion'
 
     @toolBar.addButton
       'icon': 'play'
