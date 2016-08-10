@@ -23,23 +23,23 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "coffee-script": "^1.8.0"
+    "coffee-script": "1.8.0"
   },
   "packageDependencies": {
     "tool-bar": "0.1.1",
-    "open-on-github": "^1.1.0",
-    "git-plus": "^5.16.2",
-    "gpp-compiler": "^3.0.4",
-    "git-time-machine": "^3.0",
-    "terminal-fusion": "^2.3.1",
-    "ask-stack": "^2.2.0",
+    "open-on-github": "1.1.0",
+    "git-plus": "5.16.2",
+    "gpp-compiler": "3.0.4",
+    "git-time-machine": "1.5.3",
+    "terminal-fusion": "2.3.1",
+    "ask-stack": "2.2.0",
     "script": "3.8.3",
-    "recent-finder": "^0.5.0"
+    "recent-finder": "0.5.0"
   },
   "consumedServices": {
     "tool-bar": {
       "versions": {
-        "^0.1.0": "consumeToolBar"
+        "0.1.0": "consumeToolBar"
       }
     }
   }

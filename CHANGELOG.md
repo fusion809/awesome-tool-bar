@@ -1,3 +1,6 @@
+## [0.8.2](https://github.com/fusion809/toolbar-fusion/compare/v0.8.1...v0.8.2)
+* Fixing problem packageDependency field in package.json. 
+
 ## [0.8.1](https://github.com/fusion809/toolbar-fusion/compare/v0.8.0...v0.8.1)
 * Adding the required dependencies to "packageDependencies" field in package.json,
 eliminating the need for them in `lib/toolbar-fusion.coffee`.
