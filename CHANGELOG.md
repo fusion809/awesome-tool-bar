@@ -1,3 +1,6 @@
+## [0.8.4](https://github.com/fusion809/toolbar-fusion/compare/v0.8.3...v0.8.4)
+* `gpp-compiler:debug` replaced with `gpp-compiler:gdb` in `lib/toolbar-fusion.coffee`.
+
 ## [0.8.3](https://github.com/fusion809/toolbar-fusion/compare/v0.8.2...v0.8.3)
 * Fixing problem defining docs functions in `lib/reference.coffee`.
 
