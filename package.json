@@ -3,7 +3,7 @@
   "main": "./lib/toolbar-fusion",
   "contributor": "Brenton Horne <brentonhorne77@gmail.com>",
   "author": "radjiv fender <radjiv.carrere@gmail.com>",
-  "version": "0.8.2",
+  "version": "0.8.3",
   "readmeFilename": "README.md",
   "description": "The ultimate toolbar for software developers.",
   "repository": "https://github.com/fusion809/toolbar-fusion",
