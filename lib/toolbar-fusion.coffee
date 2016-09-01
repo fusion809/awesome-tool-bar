@@ -45,7 +45,7 @@ module.exports =
     @toolBar.addButton
       'icon': 'hammer'
       'iconset': 'ion'
-      'callback': 'gpp-compiler:debug'
+      'callback': 'gpp-compiler:gdb'
       'dependency': 'gpp-compiler'
       'tooltip': 'Compile and debug C/C++ project'
 
